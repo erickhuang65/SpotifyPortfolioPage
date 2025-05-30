@@ -1,0 +1,25 @@
+.button {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    display: flex;
+    padding-left: 50px;
+    margin: 10px 10px 10px 10px;
+}
+
+.button button {
+    background-color: rgb(32, 193, 32);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: rgb(27, 163, 27); /* Slightly darker green for hover */
+}
