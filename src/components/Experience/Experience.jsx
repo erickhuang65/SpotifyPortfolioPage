@@ -1,12 +1,16 @@
 import React from 'react'
 import './Experience.css'
+import ngspImage from './assets/NGSP.png';
+import appleImage from './assets/apple.png';
+import pnpImage from './assets/pnp.png';
+import adobeImage from './assets/adobe.png';
 
 
 const Experience = () => {
   return (
     <div className='experience-page'>
         <div className='experience-content'>
-            <div className='experience-image'><img src="src/assets/NGSP.png" alt="NGSP logo" /></div>
+            <div className='experience-image'><img src={ngspImage} alt="NGSP logo" /></div>
             <div className='experience-details'>
                 <p>Full Stack Developer</p>
                 <p>Norcal German Shorthaired Pointer Rescue, Inc</p>
@@ -15,7 +19,7 @@ const Experience = () => {
             </div>
         </div>
         <div className='experience-content'>
-            <div className='experience-image'><img src="src/assets/apple.png" alt="Apple logo" /></div>
+            <div className='experience-image'><img src={appleImage} alt="Apple logo" /></div>
             <div className='experience-details'>
                 <p>Software Quality Engineer</p>
                 <p>Apple - via Ryzen</p>
@@ -24,7 +28,7 @@ const Experience = () => {
             </div>
         </div>
         <div className='experience-content'>
-            <div className='experience-image'><img src="src/assets/pnp.png" alt="PnP logo" /></div>
+            <div className='experience-image'><img src={pnpImage} alt="PnP logo" /></div>
             <div className='experience-details'>
                 <p>Data Lead</p>
                 <p>Plug and Play</p>
@@ -33,7 +37,7 @@ const Experience = () => {
             </div>
         </div>
         <div className='experience-content'>
-            <div className='experience-image'><img src="src/assets/adobe.png" alt="PnP logo" /></div>
+            <div className='experience-image'><img src={adobeImage} alt="Adobe logo" /></div>
             <div className='experience-details'>
                 <p>IT Project Manager Intern</p>
                 <p>Adobe</p>

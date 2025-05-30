@@ -1,5 +1,7 @@
 import React from 'react'
 import './Project.css'
+import logoImage from './assets/logoE.png';
+import shibaImage from './assets/shiba.png';
 
 const Project = () => {
   return (
@@ -7,7 +9,7 @@ const Project = () => {
         <div className='project-content'>
             <div className='project-image'>
                 <a href="https://portfolio-website-ericks-projects-9fe68f90.vercel.app/" target="" rel="">
-                    <img src="src/assets/logoE.png" alt="Erick's Logo" />
+                    <img src={logoImage} alt="Erick's Logo" />
                 </a>
             </div>
             <div className='project-details'>
@@ -19,7 +21,7 @@ const Project = () => {
         <div className='project-content'>
             <div className='project-image'>
                 <a href="https://github.com/erickhuang65/pet-adoption-webapp" target="" rel="">
-                    <img src="src/assets/shiba.png" alt="Erick's Logo" />
+                    <img src={shibaImage} alt="Erick's Logo" />
                 </a>
             </div>
             <div className='project-details'>
