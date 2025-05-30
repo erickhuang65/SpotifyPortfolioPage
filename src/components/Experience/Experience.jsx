@@ -2,8 +2,8 @@ import React from 'react'
 import './Experience.css'
 import ngspImage from '../../assets/NGSP.png';
 import appleImage from '../../assets/apple.png';
-import pnpImage from '../..assets/pnp.png';
-import adobeImage from '../..assets/adobe.png';
+import pnpImage from '../../assets/pnp.png';
+import adobeImage from '../../assets/adobe.png';
 
 
 const Experience = () => {
