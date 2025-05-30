@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
-import logoImage from './assets/logoE.png';
-import shibaImage from './assets/shiba.png';
+import logoImage from '../../assets/logoE.png';
+import shibaImage from '../../assets/shiba.png';
 
 const Project = () => {
   return (
